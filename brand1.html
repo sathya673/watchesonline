@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="frame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section class="sub-header1">
+        <nav>
+
+            <label class="logo">Online Shop</label>
+            <ul>
+                <li><a href="web.html" class="active">HOME</a></li>
+                <li><a href="brand1.html">TITAN</a></li>
+                <li><a href="brand2.html">CASIO</a></li>
+                <li><a href="brand3.html">TIMEX</a></li>
+                <li><a href="brand4.html">FASTRACK</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="sub-section1">
+        <h1>TITAN</h1>
+
+        <div class="rows">
+            <div class="section1-col">
+                <img src="titan1.jpg">
+
+                <script>
+                    function myFunction1() {
+                        document.getElementById("demo1").innerHTML = "Price rate : ₹ 1,476";
+                    }
+                </script>
+                <p>Analog blue dial watch</p>
+                <p1 id="demo1" onclick="myFunction1()">Read More</p1>
+
+            </div>
+            <div class="section1-col">
+                <img src="titan2.jpg">
+                <p>Hybrid Smartwatch</p>
+
+                <p1 id="demo2" onclick="myFunction2()">Read More</p1>
+
+                <script>
+                    function myFunction2() {
+                        document.getElementById("demo2").innerHTML = "Price rate : ₹ 9,995";
+                    }
+                </script>
+
+            </div>
+            <div class="section1-col ">
+                <img src="titan 3.jpg">
+                <p>Analog silver dial watch</p>
+
+                <p1 id="demo3" onclick="myFunction3()">Read More</p1>
+
+                <script>
+                    function myFunction3() {
+                        document.getElementById("demo3").innerHTML = "Price rate : ₹ 1,555";
+                    }
+                </script>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
